@@ -1,0 +1,40 @@
+.same-product-display-grid {
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.same-product-display-grid h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.same-product-display-grid .product-grid {
+    display: flex;
+}
+
+.same-product-display-grid .product-item {
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    padding: 10px;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.same-product-display-grid .product-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.same-product-display-grid .product-item img {
+    width: 100%;
+    max-width: 65px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
