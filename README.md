@@ -1,4 +1,4 @@
-# Same Product Display for WordPress 🛍️
+# Same Product Display for Woocommerce 🛍️
 
 A WordPress plugin that automatically displays products based on the product name.
 
